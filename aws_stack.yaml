@@ -219,7 +219,7 @@ Resources:
 
 Outputs:
   APIEndpoint:
-    Value: !Sub "https://${UserAPI}.execute-api.${AWS::Region}.amazonaws.com/develop/user"
+    Value: !Sub "https://${UserAPI}.execute-api.${AWS::Region}.amazonaws.com/develop"
   BucketName:
     Value: !Sub "reactapp${UserAPI}"
   CFDistributionURL:
